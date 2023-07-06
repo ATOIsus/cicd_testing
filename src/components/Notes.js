@@ -5,6 +5,8 @@ export default function Notes({handleDelete}) {
     const [error, setError] = useState()
 
 
+
+    
     useEffect(() => {
         fetch('https://jsonplaceholder.typicode.com/todos')
             .then(res => res.json())
