@@ -1,0 +1,11 @@
+name: CI/CD
+
+on:
+   push:
+        branches:
+                  -main
+
+
+jobs:
+     integration-pipeline:
+          runs-on: ubuntu-latest
